@@ -222,4 +222,8 @@ cc_library_static {
             ],
         },
     },
+    vendor_available: true,
+    vndk: {
+        enabled: true,
+    },
 }
